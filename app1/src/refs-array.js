@@ -5,10 +5,10 @@ export default function RefsArray(){
     const tr = React.useRef([])
 
     const data = [
-        ['JavaScript',100]
-        ['React',150]
-        ['React Native',180]
-        ['Node.js',120]
+        ['JavaScript',100],
+        ['React',150],
+        ['React Native',180],
+        ['Node.js',120],
         ['Vs Code',120]
     ]
 
@@ -25,7 +25,7 @@ export default function RefsArray(){
         tr.current[i].style.backgroundColor = 'white'
     }
 
-    const tableStyle = {magin:'auto',maginTop:30}
+    const tableStyle = {margin:'auto',marginTop:30}
     
     return(<table ref={table} border = "1" cellPadding={5} style={tableStyle}>
         <tr><th>Product</th><th>Price</th><th>Delete</th></tr>
