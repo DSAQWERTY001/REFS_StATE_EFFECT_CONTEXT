@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function MessageBox(){
-    let [text,setText] = useState('Hello World')
+    let [text,setText] = useState('Hello World !')
     let [size,setSize] = React.useState(16)
 
     const onClickSetText = () => {
@@ -21,7 +21,7 @@ export default function MessageBox(){
         fontSize: size,
         backgroundColor:'#ccc',
         padding: 5,
-        textAlign: 'left'
+        textAlign: 'center'
     }
 
     return(
