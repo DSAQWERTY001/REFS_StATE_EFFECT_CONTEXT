@@ -1,14 +1,7 @@
 import Eventdata2 from './event-data';
 import './App.css';
 import Banner from './banner';
-function App() {
-  return (
-    <div className="App">
-      <Banner/>
-      <br/>
-      <Eventdata2/>
-    </div>
-  );
+import RefsArray from './refs-array';
+export default function App() {
+  return <RefsArray/>
 }
-
-export default App;
